@@ -1,5 +1,15 @@
 Hardware Changelog
 
+# SMD mod Rev A - Jan 29, 2024
+
+No functional changes, besides layout and component switching:
+ * Switch to Pico-H footprint
+ * Convert board to use SMD components, reroute and reduce overall
+   board size.
+ * Create single-pcb layout containing two boards, which can be snapped
+   apart thanks to mousebites.
+ * Switch some test points signals to allow simpler routing.
+
 # Rev B - Sept 9, 2023
 
 Updated design suitable for PCB manufacturing and hand-soldering
